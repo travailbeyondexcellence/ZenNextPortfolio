@@ -48,21 +48,21 @@ const AboutDetails = () => {
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
-          <Image
+          {/* <Image
             className="w-full h-auto"
             src= "/assets/images/codebucks.png"
             alt="CodeBucks"
             loading="lazy"
-          />
+          /> */}
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <Image
+          {/* <Image
             className="w-full h-auto"
             src="/assets/images/codebucks.png"
             alt="CodeBucks"
             loading="lazy"
-          />
+          /> */}
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
@@ -71,16 +71,18 @@ const AboutDetails = () => {
             src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
             alt="CodeBucks"
             loading="lazy"
+            width="1000"
+            height="1000"
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <Image
+          {/* <Image
             className="w-full h-auto"
             src="/assets/images/codebucks.png"
             alt="CodeBucks"
             loading="lazy"
-          />
+          /> */}
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
@@ -89,12 +91,12 @@ const AboutDetails = () => {
             target="_blank"
             className="w-full"
           >
-            <Image
+            {/* <Image
               className="w-full h-auto"
               src="/assets/images/codebucks.png"
               alt="CodeBucks"
               loading="lazy"
-            />
+            /> */}
           </Link>
         </ItemLayout>
       </div>
